@@ -2,10 +2,17 @@
 Snippet description
 
 ## Installation
-To install this snippet, simply copy the line bellow into your custom css file:
+Canary Users: Import [this file](/Snippets/CSS/snippet.css) to your theme library.
+Stable Users: Copy and paste the following CSS into your Custom CSS field.
+
+<details>
+<summary>CSS</summary>
+
 ```css
-@import url(//user.github.io/repo/snippet/import.css);
+CSS HERE
 ```
+
+</details>
 
 ## Preview
 ![image](raw link)
