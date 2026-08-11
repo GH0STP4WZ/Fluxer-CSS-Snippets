@@ -1,0 +1,87 @@
+/**
+ * @name Enhanced Alert Blocks Variant 2
+ * @description More Stylized Alert Blocks. (Variant 2 — UserNamePlates Inspired)
+ * @author GH0STP4WZ#0001
+ * @version Preview
+ * @tags Styling, Customization
+ */
+
+.Markup\.module__alert___XzQ5ZD.Markup\.module__alert___XzQ5ZD::before {
+    display: none;
+}
+
+.Markup\.module__alert___XzQ5ZD.Markup\.module__alert___XzQ5ZD {
+    width: fit-content;
+    max-width: 100%;
+
+    margin: 0 -3px;
+    margin-left: 0 !important;
+
+    border: 1px solid
+    color-mix(
+        in srgb,
+        currentcolor 70%,
+        transparent
+    );
+
+    border-radius: 5px;
+
+    background:
+    linear-gradient(
+        180deg,
+        color-mix(
+            in srgb,
+            currentcolor 10%,
+            transparent
+        ),
+        color-mix(
+            in srgb,
+            currentcolor 30%,
+            transparent
+        )
+    );
+
+    filter:
+    drop-shadow(
+        0 0 1px
+        color-mix(
+            in srgb,
+            currentcolor 20%,
+            transparent
+        )
+    );
+}
+
+.Markup\.module__alertTitle___XzQ5ZD {
+    position: relative;
+
+    filter:
+    drop-shadow(
+        0 0 5px
+        currentcolor
+    );
+}
+
+.Markup\.module__alertTitle___XzQ5ZD::after {
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 4px;
+
+    color: inherit;
+
+    background:
+    color-mix(
+        in srgb,
+        currentcolor 20%,
+        transparent
+    );
+
+    filter:
+    invert(1)
+    hue-rotate(180deg);
+}

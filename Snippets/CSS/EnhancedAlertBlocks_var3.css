@@ -1,0 +1,34 @@
+/**
+ * @name Enhanced Alert Blocks Variant 3
+ * @description More Stylized Alert Blocks. (Variant 3 — Neon Inspired)
+ * @author GH0STP4WZ#0001
+ * @version Preview
+ * @tags Styling, Customization
+ */
+
+.Markup\.module__alert___XzQ5ZD.Markup\.module__alert___XzQ5ZD {
+    width: fit-content;
+    max-width: 100%;
+
+    border: 1px solid
+    color-mix(
+        in srgb,
+        currentcolor 70%,
+        transparent
+    );
+
+    background-image:
+    radial-gradient(
+        circle at bottom center,
+        color-mix(
+            in srgb,
+            currentcolor 30%,
+            transparent
+        ) 0%,
+        color-mix(
+            in srgb,
+            currentcolor 10%,
+            transparent
+        ) 50%
+    );
+}
