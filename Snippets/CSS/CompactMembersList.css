@@ -1,0 +1,18 @@
+/**
+ * @name Compact Members List
+ * @description Fluxer on a Small Screen can be annoying. This snippet hides the Members List until you hover over it, giving you more space to view messages.
+ * @author GH0STP4WZ#0001
+ * @version 0.1
+ * @tags Layout, Functionality, Accesibility
+ */
+
+.ChannelIndexPage\.module__memberListDivider___XzNmOW,
+.MemberListContainer\.module__memberListContainer___XzJhOT {
+    transition: all ease 0.3s!important;
+}
+body:not(:has(.MemberListContainer\.module__memberListContainer___XzJhOT:hover)) {
+    .ChannelIndexPage\.module__memberListDivider___XzNmOW,
+    .MemberListContainer\.module__memberListContainer___XzJhOT {
+        margin-right: -210px;
+    }
+}
