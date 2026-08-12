@@ -12,6 +12,9 @@
 | --- | --- | --- |
 | ![image](/Previews/EnhancedAlertBlocks/Variant1.png) | ![image](/Previews/EnhancedAlertBlocks/Variant2.png) | ![image](/Previews/EnhancedAlertBlocks/Variant3.png) |
 
+### [Iconify Search](/Snippets/MDs/Iconify%20Search.md)
+![image](/Previews/IconifySearch/IconifySearch.gif)
+
 ### [Improved User Area](/Snippets/MDs/Improved%20User%20Area.md)
 ![image](/Previews/ImprovedUserArea/record-2026-07-29_10-54-37.gif)
 
