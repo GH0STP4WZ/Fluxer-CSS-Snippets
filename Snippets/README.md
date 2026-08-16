@@ -7,7 +7,7 @@
 ### [Compact Members List](/Snippets/MDs/Compact%20Members%20List.md)
 ![preview](/Previews/CompactMembersList/record-2026-08-06_23-58-48.gif)
 
-### Dynamic Send Button
+### [Dynamic Send Button](/Snippets/MDs/Dynamic%20Send%20Button.md)
 ![image](/Previews/DynamicSendButton/Dynamic%20Send%20Button.gif)
 
 
