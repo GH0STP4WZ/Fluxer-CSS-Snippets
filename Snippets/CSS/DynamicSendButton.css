@@ -1,0 +1,26 @@
+/**
+ * @name Dynamic Send Button
+ * @description Dynamically hides the send button (if enabled) until there is actually something to send
+ * @author GH0STP4WZ#0001
+ * @version 1.0
+ * @tags Personalization, Styling
+ * @workswith Canary
+ */
+
+.TextareaInput\.module__buttonContainerDense___XzJmNz {
+    transition: all 0.2s ease-in-out;
+    margin-right: 35px;
+    transition-property: opacity, margin-right;
+    .TextareaButton\.module__button___XzgyZD:last-child {
+        transition: all 0.2s ease-in-out;
+        position: absolute;
+        right: 0;
+        &:disabled {
+            opacity: 0;
+            right: -25px;
+        }
+    }
+    &:has(.TextareaButton\.module__button___XzgyZD:last-child:disabled) {
+        margin-right: -15px;
+    }
+}
